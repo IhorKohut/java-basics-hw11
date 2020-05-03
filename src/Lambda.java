@@ -19,7 +19,6 @@ public class Lambda {
      * @return lambda expression.
      */
     public static Function<Double, Double> getSqrt() {
-        Function<Double, Double> sqrt = (a) -> Math.sqrt(a);
-        return sqrt;
+        return (a) -> Math.sqrt(a);
     }
 }
